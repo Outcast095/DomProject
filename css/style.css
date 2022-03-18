@@ -1,1 +1,49 @@
 
+.mainClass {
+	
+}
+.bigBlock_white {
+	width: 250px;
+	height: 340px;
+	background-color: rgb(145, 135, 135);
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+
+.bigBlock_wrapper{
+	width: 250px;
+	height: 340px;
+	background-color: rgb(253, 253, 253);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.smallBlock{
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.smallBlock_red {
+	background-color: rgb(202, 29, 29);
+	color: aliceblue;
+}
+.smallBlock_blue {
+	background-color: rgb(44, 9, 240);
+	color: aliceblue;
+}
+.smallBlock_green {
+	background-color: rgb(34, 231, 16);
+	color: aliceblue;
+}
+
+.flex {
+	display: flex;
+}
